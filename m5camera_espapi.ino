@@ -112,8 +112,8 @@ void setup()
   if(psramFound())
   {
     config.frame_size = FRAMESIZE_UXGA;
-    config.jpeg_quality = 10;
-    config.fb_count = 2;
+    config.jpeg_quality = 12;
+    config.fb_count = 1;
   }
   else 
   {
