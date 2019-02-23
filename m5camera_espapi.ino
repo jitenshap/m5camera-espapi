@@ -1,3 +1,8 @@
+/*
+M5CameraのUSBポートからシリアルでJPEGを取り出すサンプル。下記のESP32-Arduino付属サンプルコードがベース。
+参照:https://github.com/espressif/arduino-esp32/tree/master/libraries/ESP32/examples/Camera/CameraWebServer
+*/
+
 #include "esp_camera.h"
 
 //#define M5CAM_MODEL_A
