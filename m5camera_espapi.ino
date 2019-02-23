@@ -49,8 +49,6 @@ M5CameraのUSBポートからシリアルでJPEGを取り出すサンプル。�
 #endif
 
 
-void startCameraServer();
-
 void getJPEG()
 {
   camera_fb_t * fb = NULL;
